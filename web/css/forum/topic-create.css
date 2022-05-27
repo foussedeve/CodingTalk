@@ -1,0 +1,73 @@
+.forum-aside{
+    background-color: white;
+    max-height: 100vh;
+}
+.topics-return{
+  height: 80px;
+   border-bottom: 1px solid orange; 
+   padding-top: 30px;
+   margin-bottom: 8px;
+   
+}
+.topics-return a{
+    display: block;
+    padding: 5px 20px;
+    background-color: rgba(0, 0, 0, 0.486);
+    font-weight: bold;
+    
+}
+.forum-section{
+    background-color: white;
+    
+}
+.forum-section h1{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border-bottom:  1px solid orange;
+   
+   
+}
+.forum-section form{
+    padding: 5px 20px;
+    font-size: 14px;
+}
+.forum-section label{
+    margin-bottom: 10px;
+}
+.forum-section label span{
+    font-weight: bold;
+    color:red;
+}
+.forum-section input{
+    margin-bottom: 10px;
+      font-size: 14px;
+}
+.forum-section textarea {
+    margin-bottom: 15px;
+}
+.forum-section input[type=submit]{
+    float: right;
+    padding: 5px 15px;
+    margin-bottom: 20px; 
+    font-weight: bold;
+}
+
+@media screen and (min-width:760px) {
+    .main-forums{
+        margin-top: 20px;
+        padding-left: 10px;
+        padding-right: 10px; 
+        display: flex;
+        justify-content: space-around;
+    }
+    .forum-aside{
+        width: 20%;
+    }
+    .forum-section{
+        
+        width: 70%;
+    }
+ 
+}

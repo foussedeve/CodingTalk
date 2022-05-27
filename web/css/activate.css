@@ -1,0 +1,47 @@
+/*********************************************************\
+css for forntent/active.php
+\*********************************************************/
+.activate-form{
+    display:flex;
+    justify-content: center;
+    align-self: center;
+    padding-top: 70px;
+    height:100vh;
+    background-color: rgba(0,0,0,0.4);
+}
+.active-cpt{
+    background-color: white;
+    height: 500px;
+    width: 460px;
+    margin: auto;
+    padding: 70px;
+   
+}
+.active-cpt h1,.active-cpt p{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.input-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: content;
+    padding-top: 40px;
+}
+.input-content input{
+    
+    height: 35px;
+    margin-right: 10px;
+}
+.active-cpt a{
+    display:inline-block;
+    margin-top: 60px;
+    text-decoration: none;
+    
+    
+}
+.active-cpt a i{
+    font-size:15px;
+    display: inline-block;
+    vertical-align:top;
+    
+}

@@ -1,0 +1,343 @@
+
+.main-profil{
+    position: relative;
+}
+.profil-picture{
+    margin-top: 5px;
+  
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.profil-img{
+    position: relative;
+    margin-bottom: 20px;
+}
+.profil-img img{
+    width: 200px;
+    height: 200px;
+}
+.profil-img i{
+    position: absolute;
+    bottom: 45px;
+    right: 11px;
+    height: 40px;
+    width: 40px;
+    padding: 7px 2px;
+    text-align: center;
+    background-color:rgba(220, 220, 220, 0.603) ;
+    border-radius: 50%;
+    cursor:pointer;
+}
+.profil-img h4{
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.profil-icons a{
+    display: inline-block;
+    padding: 8px 15px;
+    width: 180px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgba(220, 220, 220, 0.603);
+}
+.profil-icons span{
+    padding-left: 4px;
+}
+.profil-infos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    
+}
+.profil-intro{
+   
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px 8px;
+    margin-top: 20px;
+    width: 100%;
+}
+.profil-intro ul{
+    list-style-type: none;
+}
+.profil-intro li{
+    padding: 5px 5px;
+    margin-bottom: 8px;
+    text-align: left;
+    margin-left: -20px;
+    font-weight: none;
+    color: gray;
+    
+}
+.profil-intro li span{
+    padding-left: 15px;
+}
+.user-actions{
+    margin-top: 8px;
+    background-color: white;
+   padding: 10px;
+    border-radius:5px
+}
+.user-actions img{
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+}
+.user-actions img +a{
+    display: inline-block;
+    padding: 8px 30px;
+    border-radius: 50px;
+    width: 82%;
+    background-color: rgba(220, 220, 220, 0.603);
+    cursor: pointer;
+    text-decoration: none;
+}
+.user-actions-links{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+.user-actions-links a{
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+}
+.user-actions-links a i{
+    margin-right: 10px;
+}
+.user-projects{
+    margin-top: 20px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.user-projects div {
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.user-projects div span{
+    display: inline-block;
+    padding: 8px 10px;
+    font-size: 18px;
+}
+.user-projects table td:last-child{
+   
+    position: relative;
+}
+.user-projects table a{
+    position: absolute;
+    bottom:4px;
+    right:-3px;
+    padding: 4px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: rgba(220, 220, 220, 0.603);
+    text-align: center;
+    z-index: 1;
+}
+.profil-others{
+width: 90%;
+margin:auto;
+margin-top: 20px;
+}
+.user-bio{
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 15px;
+    width: 100%;
+    border-radius: 5px;
+}
+.user-account{
+    background-color: white;
+    padding: 8px;
+}
+.user-account span{
+    display: block;
+    margin-bottom: 10px;
+}
+/**
+  *style for profil layout form default hidden
+*/
+.profil-form{
+    position: absolute;
+    top: 80px;
+    bottom:0;
+    left: 0;
+    right:0;
+    background-color: rgba(63, 54, 54, 0.37);
+    z-index: 2;
+    height: 110vh; 
+    padding-top: 80px;
+   
+}
+.profil-form-content{ 
+    position: relative;
+    padding: 15px  ;  
+    margin: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column; 
+    width: 100%;
+    
+    
+}
+.profil-form-content span{
+    display: inline-block;
+     height: 35px;
+    width: 35px; 
+    border-radius: 50%;
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    background-color: rgba(220, 220, 220, 0.603);
+    cursor: pointer;
+    text-align: center; 
+    font-size: 21px; 
+    padding-bottom: 20px; 
+}
+.profil-form-content h4{
+    text-align: center;
+}
+/***
+*style form upload user picture default
+*/
+.picture-upload{
+    display: none;
+}
+.picture-upload form{
+     height:200px; 
+    border-radius: 5px; 
+  
+}
+
+.picture-upload input{
+display: inline-block;
+height: 40px;
+margin-bottom: 10px;
+}
+.picture-upload input[type=submit]{
+    width: 40%;
+    margin-top: 10px;
+} 
+/**
+style for resources form 
+*/
+.resources-form{
+    display: none;
+    
+}
+.resources-form form{
+    padding-bottom: 50px;
+    border-radius:5px
+}
+.resources-form div{
+   margin-bottom: 20px;
+   display: flex;
+   flex-direction: column;
+}
+.resources-form label{
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.resources-form input{
+    height: 40px;       
+}
+.resources-form input:focus{
+    box-shadow: none;
+}
+.resources-form select{
+    height: 40px;
+    margin-bottom: 20px;
+}
+.resources-form input[type=submit]{
+    width: 30%;
+    margin-left: 70%;
+}
+
+
+
+/**
+*MEDAI QUERIES
+***/
+
+@media only screen and (min-width:900px) {
+   
+    .profil-picture{
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 20px;
+        padding-right: 20px;
+        align-items: flex-end;
+        padding: 10px 110px;
+
+    }
+    .profil-img i{
+       
+        bottom: 16px;
+        right: 12px;
+        
+    }
+    .profil-img h4{
+       position: absolute;
+       bottom: 98px;
+       right: -200px;
+       font-size: 26px;
+    }
+    .profil-icons{
+        padding-bottom: 30px;
+        display: flex;
+        width: 400px;
+        justify-content: space-between;
+    }
+    .profil-infos{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items:flex-start;
+        margin-top: 25px;
+        width: 90%;
+    }
+    .profil-intro{
+        width: 400px;
+        margin-right: 20px;
+        margin-top: 0;
+    }
+    .user-actions{
+        margin-top: 0;
+    }
+    .profil-others{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 90%;
+    }
+    .user-bio{
+        margin-right: 20px;
+        height: 200px;
+         overflow-y: scroll; 
+        width: 70%;
+
+    }
+    .user-account{
+        width: 300px; 
+        height: 200px;
+    }
+    .profil-form-content{
+        width: 60%;
+        
+    }
+  
+    
+}

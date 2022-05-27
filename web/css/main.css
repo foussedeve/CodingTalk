@@ -1,0 +1,21 @@
+
+
+@import"/bootstrap/css/bootstrap.min.css";
+@import"/fonts/fontawsome/css/all.min.css";
+@import "/css/layout_css.css";
+@import "forum/forums_nav.css";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+   
+}
+body{
+    background-color:rgba(220, 220, 220, 0.603);
+}
+a{
+    text-decoration: none;
+}

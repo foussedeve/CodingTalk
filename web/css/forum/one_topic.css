@@ -1,0 +1,97 @@
+  .display-hidden{
+      display: none;
+  }
+
+.main-topic{
+ margin-top: 8px;
+}
+.topic-aside{
+    padding-top: 10px;
+    background-color: white;
+}
+.topic-links{
+    border-bottom: 1px solid orange;
+    margin-bottom: 10px;
+}
+.topic-links a{
+  display:block;
+  padding: 5px 20px;
+  margin-bottom: 2px;
+  font-weight: bold;
+ 
+}
+.topic-section{
+
+}
+.topic-container{
+    
+}
+.topic-container h1{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 20px;
+}
+.topic-close{
+  
+    padding: 8px 20px;
+    color: white;
+    background-color: green;
+}
+.topic-content{
+
+}
+.message-card{
+    display: flex;
+    background-color: white;
+    
+}
+.autor-picture{
+ margin-right: 20px;
+ display: none;
+}
+.message-card img{
+    width: 50px;
+    height: 50px; 
+}
+.message-card .message{
+    border: 1px solid rgba(194, 188, 188, 0.664);
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.message-card span{
+    color: orangered;
+    font-weight: bold;
+    
+}
+.topic-section form{
+    margin-bottom: 100px;
+    background-color: white;
+}
+.topic-section input{
+    margin-top: 10px;
+    float: right;
+    padding: 5px 12px;
+    
+    background-color: red;
+}
+
+
+
+@media screen and (min-width:760px) {
+    .main-topic{
+        margin-top: 20px;
+        padding-left: 10px;
+        padding-right: 10px; 
+        display: flex;
+        justify-content: space-around;
+    }
+    .topic-aside{
+        width: 236px;
+    }
+    .topic-section{
+        
+        width: 70%;
+    }
+ 
+}

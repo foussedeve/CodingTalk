@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+}
+
+.main-content{
+    width: 740px;
+    margin:auto;
+    margin-top: 20px;
+    padding-top: 50px;
+    background-color: white;
+   /*  border:1px solid #ced4da; */
+   
+}
+.login-head{
+    margin-top: 10px;
+    margin-bottom: 40px;
+   text-align: center;
+}
+.login-head p{
+font-weight: bold;
+}
+.login-content{
+    display: flex;
+    justify-content: center;
+    width: 668px;
+    margin: auto;
+}
+.loader{
+    display:none;
+    justify-content: start;
+    align-items: center;
+    width:100%;
+    height: 100%;
+
+}
+.login-items{
+    margin-right: 23px;
+    margin-left: 7px;
+    margin-top: 10px;
+    width:330px;
+    
+
+}
+
+.login-items:last-child{
+    border-left: 1px solid rgb(216, 208, 208);
+    padding-left: 20px;
+    margin-right: 7px;
+}
+
+.btn-sign{
+    display: block;
+    background-color: white;
+    border: 0.5px solid rgb(197, 185, 185);
+    border-radius: none;
+    width: 300px;
+    margin-bottom: 20px;
+}
+#form-sign{
+    display:none;
+    
+}
+.login-items p{
+    font-size:14px;
+    font-style: italic;
+}
+.form-box{
+    border-bottom: 1px ridge rgb(197, 185, 185);
+}
+.login-items label{
+    font-weight: bold;
+}
+.login-items a{
+    font-size: 15px;
+    margin-top: 35px;
+
+    display: inline-block;
+    color: inherit;
+}
+.login-items .bnt-submit{
+    margin-top: 20px;
+}
+.form-group button[type=submit]{
+ 
+    margin-top: -22px;
+    margin-left: 39px;
+    
+ 
+
+}
+.footer-links{
+    border-top: 0.5px solid rgb(197, 187, 187);
+    background-color: rgb(223, 219, 219);
+    text-align: center;
+    margin-top: 20px;
+}
+.footer-links a{
+    text-transform: capitalize;
+    display: inline-block;
+    font-size: 12px;
+    padding: 8px;
+    color: inherit;
+
+}
+
+
+
+

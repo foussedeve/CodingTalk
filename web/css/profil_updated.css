@@ -1,0 +1,112 @@
+.updated-container{
+    margin-top: 8px;
+    padding-bottom: 60px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+}
+.part-one{
+    padding-top: 20px;
+   display: flex; 
+  flex-direction: column;
+  align-items: center;
+   width: 90%;
+}
+.part-one img{
+     height: 200px;
+    width: 200px;   
+}
+.part-one form{
+    margin-top: 8px;
+   width: 100%;
+ 
+}
+.part-one label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.part-one input{
+margin-bottom: 20px;
+height: 35px;
+display: block;
+width: 100%;
+padding-left: 8px;
+}
+.part-one textarea{
+    height: 100px;
+    width: 100%;
+    margin-bottom: 20px;
+    padding-left: 8px;
+}
+.part-one input[type=submit]{
+    margin-left: 70%;
+    width: 30%;
+}
+.part-two{
+
+padding-top: 20px;
+width: 90%;
+
+}
+.part-two h4{
+    font-weight: bold;
+}
+
+.part-two label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.part-two input,.part-two select{
+    height: 35px;
+    width: 100%;
+    margin-bottom: 20px;
+    padding-left: 8px;
+}
+.part-two input[type=submit]{
+    margin-left: 70%;
+    width: 30%;
+    padding-left: 0px;
+}
+
+@media only screen and (min-width:900px) {
+
+    .updated-container{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+     .part-one{
+         flex-direction: row;
+         align-items: flex-start;
+     }
+     .part-one form{
+         margin-left: 50px;
+         padding-top: 50px;
+     }
+     .part-two .form-input{
+         display: flex;
+         justify-content: space-between;
+         flex-wrap: wrap;
+     }
+     .part-two .form-input div{
+         width: 49%;
+     }
+     .part-two input,.part-two select{
+         width: 100%;
+         
+     }
+     .part-two input[type=submit]{
+        margin-left:40%;
+        width: 20%;
+        margin-top: 20px;
+    }
+
+
+
+
+
+}

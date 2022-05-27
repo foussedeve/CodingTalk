@@ -1,0 +1,36 @@
+{
+    "require": {
+        "symfony/cache": "5.3",
+        "doctrine/orm": "^2.10.2",
+        "doctrine/dbal": "^3.1.1",
+        "altorouter/altorouter": "2.0",
+        "intervention/image": "2.6",
+        "nette/mail": "3.1",
+        "latte/latte": "^2.10",
+        "doctrine/annotations": "^1.13",
+        "symfony/validator": "^5.4",
+        "ausi/slug-generator": "^1.1"
+      
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^5.0",
+        "fakerphp/faker": "^1.17",
+        "filp/whoops": "^2.14"
+    },
+    "autoload":{
+        "psr-4":{
+            "Graph\\":"src"
+           
+        },
+        "files":[
+            "config/config.php",
+            "src/Classes/fonctions.php"
+            
+        ]
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/package-versions-deprecated": false
+        }
+    }
+}

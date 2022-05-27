@@ -1,0 +1,104 @@
+.forum-aside{
+    background-color: white;
+    max-height: 100vh;
+}
+.new-topic{
+  height: 80px;
+   border-bottom: 1px solid orange; 
+   padding-top: 30px;
+   margin-bottom: 8px;
+   
+}
+.new-topic a{
+    display: block;
+    padding: 5px 20px;
+    background-color: rgba(0, 0, 0, 0.486);
+    font-weight: bold;
+    
+}
+.forum-filter{
+    padding-left: 20px; 
+    margin-bottom: 10px;
+    border-bottom: 1px solid orange; 
+}
+.forum-filter h4{
+    font-weight: bold;
+    font-size: 20px;
+}
+.forum-filter a{
+    display:block;
+    padding:5px 15px;
+    margin-bottom: 2px;
+   font-size: 16px;
+    text-decoration: none;
+    
+}
+.forum-filter .active{
+    background-color: rgba(0, 0, 0, 0.486);
+}
+.forum-section h1{
+font-weight: bold;
+margin-bottom: 16px;
+font-size: 26px;
+}
+.pagination{
+    background-color: white;
+    border-bottom: 1px solid orange;
+    margin-bottom: 5px;
+}
+.pagination span{
+    display: inline-block;
+    padding: 5px 15px;
+    margin-bottom: 8px;
+    border: 0.2px solid rgba(128, 128, 128, 0.226) ;
+    height: 100%;
+}
+.pagination .active{
+    background-color: green;
+    font-weight: bold;
+    
+}
+.subject-card{
+    padding: 5px 20px;
+    background-color: white;
+    border: 0.2px solid rgba(128, 128, 128, 0.226);
+}
+.tags span{
+    display: inline-block;
+    padding: 5px;
+    margin-bottom: 8px;
+    border: 0.2px solid rgba(128, 128, 128, 0.226) ;
+}
+.subject-body .title{
+    font-size: 17px;
+    font-weight: bold;
+}
+.subject-body .autor{
+ font-style: italic;
+ color:rgba(17, 17, 231, 0.904);
+}
+@media screen and (min-width:760px) {
+    .main-forums{
+        margin-top: 20px;
+        padding-left: 10px;
+        padding-right: 10px; 
+        display: flex;
+        justify-content: space-around;
+    }
+    .forum-aside{
+        width: 20%;
+    }
+    .forum-section{
+        
+        width: 70%;
+    }
+    .subject-card{
+        display:flex;
+        justify-content: space-between;
+    }
+    .subject-details{
+        display:flex;
+        align-items: center;
+        margin-right: 20px;
+    }
+}

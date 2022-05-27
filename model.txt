@@ -1,0 +1,99 @@
+User
+-firstname :string
+-lastname:string
+-username:string
+-email:string
+-image : string
+-biography:text
+-birthday:date
+-facebook:string
+-github:string
+-linkedin:string
+-gender:F/M
+-skills :array
+
+Form
+-title:string
+-description:string
+-image:string
+
+Topic
+-title:strign
+-description:string
+-content:text
+-created_at:date
+-tags:array
+-close:true/false
+-form_id:int
+-user_id:int
+
+
+Answer
+-content:text
+-created_at:date
+-topic_id:int
+-user_id:int
+-form_id:int
+
+Project
+-title:string
+-description:string
+-content:text
+-level:string
+-user_id:int
+
+Resource
+-source:string
+-link:string
+-description:string
+-user_id:int
+
+Controllers..............
+
+TopicController
++createTopic(form_id,user_id)
++updateTopic()
++deleleTopic(topic_id)
+
+AnswerController
++createAnswer(form_id,topic_id)
++updateAnswer()
++deleleAnswer(answer_id)
+
+ProjectController
++createProject(user_id)
++updateProject()
++deleteProject(project_id)
+
+ResourceController
++createResource(user_id)
++updateResource()
++deleteResource(resource_id)
+
+FrontController
++showForums():liste de forums
++showOneForum(form_id):liste des messages d'un forum
++showTopicForm():formulaire de creation de topic
++showTopic(topic_id):un topic et ses answers
++showTopicUpdateForm(topic_id): formulaire de modification topic
+
++showProjects():liste des projet
++showOneProject(project_id):un projet
++showPojectForm(): formualire de creation projet
++showProjetcUpdateForm(project_id):modification
+
+
++showResources():liste des resource
++showOneResource(resource_id):une ressources
++showResourceUpdateForm(resource_id):modification
+
+
+
+
+
+
+
+
+
+
+
